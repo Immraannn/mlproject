@@ -1,1 +1,9 @@
-
+venv/
+__pycache__/
+*.pyc
+artifacts/
+logs/
+mlproject.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
