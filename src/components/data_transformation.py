@@ -17,7 +17,7 @@ from src.utils import save_object  # Save Python objects (like preprocessor)
 
 @dataclass
 class DataTransformationConfig:  
-    preprocessor_obj_file_path = os.path.join('artifacts', "proprocessor.pkl")  # Path to save preprocessor
+    preprocessor_obj_file_path = os.path.join('artifacts', "preprocessor.pkl")  # Path to save preprocessor
 
 class DataTransformation:
     def __init__(self):
